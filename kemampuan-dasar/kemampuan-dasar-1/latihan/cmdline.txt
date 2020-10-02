@@ -1,0 +1,311 @@
+1. dir  :
+C:\Users\ASUS\praxis-academy>dir
+ Volume in drive C is OS
+ Volume Serial Number is 8861-F166        
+
+ Directory of C:\Users\ASUS\praxis-academy
+
+02/10/2020  21:33    <DIR>          .
+02/10/2020  21:33    <DIR>          ..
+02/10/2020  21:33    <DIR>          kemampuan-dasar-1
+               0 File(s)              0 bytes
+               3 Dir(s)  65.244.884.992 bytes free
+
+2. md/mkdir :
+C:\Users\ASUS>mkdir praxis-academy\kemampuan-dasar-1\latihan
+
+3. cd/chdir 
+C:\Users\ASUS>cd praxis-academy     
+C:\Users\ASUS\praxis-academy>
+
+4. rmdir :
+C:\Users\ASUS\praxis-academy>rmdir test-removedir
+
+5. copy     :
+C:\Users\ASUS\praxis-academy>copy test.txt kemampuan-dasar-1
+        1 file(s) copied.
+
+6. ren/rename :
+C:\Users\ASUS\praxis-academy>ren test.txt rename-test.txt
+
+7. move     :
+C:\Users\ASUS\praxis-academy>ren test.txt rename-test.txt
+
+C:\Users\ASUS\praxis-academy>move rename-test.txt kemampuan-dasar-1
+        1 file(s) moved.
+
+8. del      :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>del rename-test.txt
+
+9. exit     :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>exit
+
+10. echo    :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>echo "belajar command line"
+"belajar command line"
+
+11. type    :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>type test.txt
+file test
+
+12. fc      :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>fc test.txt test1.txt
+Comparing files test.txt and TEST1.TXT
+***** test.txt
+file test
+***** TEST1.TXT
+file test1
+*****
+
+13. cls     :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>cls
+
+14. help    :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.     
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.        
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at 
+boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command 
+interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file 
+extension
+               associations.
+GOTO           Directs the Windows command interpreter to a 
+labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for 
+files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.        
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it. 
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or 
+CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory 
+trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.       
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session. 
+TREE           Graphically displays the directory structure 
+of a drive or
+               path.
+TYPE           Displays the contents of a text file.        
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>
+
+15. date    :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>date
+The current date is: 02/10/2020 
+Enter the new date: (dd-mm-yy)
+
+16. find    :
+C:\Users\ASUS\praxis-academy>find "file test" C:\Users\ASUS\praxis-academy\kemampuan-dasar-1\test.txt
+
+---------- C:\USERS\ASUS\PRAXIS-ACADEMY\KEMAMPUAN-DASAR-1\TEST.TXT
+file test
+
+17. attrib  :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>attrib test.txt
+A                    C:\Users\ASUS\praxis-academy\kemampuan-dasar-1\test.txt
+
+18. assoc   : 
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>assoc .txt
+.txt=txtfile
+
+19. cmdkey  :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>cmdkey       
+
+Creates, displays, and deletes stored user names and passwords.
+
+The syntax of this command is:
+
+CMDKEY [{/add | /generic}:targetname {/smartcard | /user:username {/pass{:password}}} | /delete{:targetname | /ras} | /list{:targetname}]
+
+Examples:
+
+  To list available credentials:
+     cmdkey /list
+     cmdkey /list:targetname
+
+  To create domain credentials:
+     cmdkey /add:targetname /user:username /pass:password   
+     cmdkey /add:targetname /user:username /pass
+     cmdkey /add:targetname /user:username
+     cmdkey /add:targetname /smartcard
+
+  To create generic credentials:
+     The /add switch may be replaced by /generic to create generic credentials
+
+  To delete existing credentials:
+     cmdkey /delete:targetname
+
+  To delete RAS credentials:
+     cmdkey /delete /ras
+
+20. shutdown    :
+C:\Users\ASUS\praxis-academy\kemampuan-dasar-1>shutdown     
+Usage: shutdown [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/soft] [/fw] [/f]
+    [/m \\computer][/t xxx][/d [p|u:]xx:yy [/c "comment"]]
+
+    No args    Display help. This is the same as typing /?.
+    /?         Display help. This is the same as not typing 
+any options.
+    /i         Display the graphical user interface (GUI).
+               This must be the first option.
+    /l         Log off. This cannot be used with /m or /d options.
+    /s         Shutdown the computer.
+    /sg        Shutdown the computer. On the next boot, if Automatic Restart Sign-On
+               is enabled, automatically sign in and lock last interactive user.
+               After sign in, restart any registered applications.
+    /r         Full shutdown and restart the computer.
+    /g         Full shutdown and restart the computer. After the system is rebooted,
+               if Automatic Restart Sign-On is enabled, automatically sign in and
+               lock last interactive user.
+               After sign in, restart any registered applications.
+    /a         Abort a system shutdown.
+               This can only be used during the time-out period.
+               Combine with /fw to clear any pending boots to firmware.
+    /p         Turn off the local computer with no time-out 
+or warning.
+               Can be used with /d and /f options.
+    /h         Hibernate the local computer.
+               Can be used with the /f option.
+    /hybrid    Performs a shutdown of the computer and prepares it for fast startup.
+               Must be used with /s option.
+    /fw        Combine with a shutdown option to cause the next boot to go to the
+               firmware user interface.
+    /e         Document the reason for an unexpected shutdown of a computer.
+    /o         Go to the advanced boot options menu and restart the computer.
+               Must be used with /r option.
+    /m \\computer Specify the target computer.
+    /t xxx     Set the time-out period before shutdown to xxx seconds.
+               The valid range is 0-315360000 (10 years), with a default of 30.
+               If the timeout period is greater than 0, the 
+/f parameter is
+               implied.
+    /c "comment" Comment on the reason for the restart or shutdown.
+               Maximum of 512 characters allowed.
+    /f         Force running applications to close without forewarning users.
+               The /f parameter is implied when a value greater than 0 is
+               specified for the /t parameter.
+    /d [p|u:]xx:yy  Provide the reason for the restart or shutdown.
+               p indicates that the restart or shutdown is planned.
+               u indicates that the reason is user defined.
+               If neither p nor u is specified the restart or shutdown is
+               unplanned.
+               xx is the major reason number (positive integer less than 256).
+               yy is the minor reason number (positive integer less than 65536).
+
+Reasons on this computer:
+(E = Expected U = Unexpected P = planned, C = customer defined)
+Type    Major   Minor   Title
+
+ U      0       0       Other (Unplanned)
+E       0       0       Other (Unplanned)
+E P     0       0       Other (Planned)
+ U      0       5       Other Failure: System Unresponsive  
+E       1       1       Hardware: Maintenance (Unplanned)
+E P     1       1       Hardware: Maintenance (Planned)
+E       1       2       Hardware: Installation (Unplanned)
+E P     1       2       Hardware: Installation (Planned)
+E       2       2       Operating System: Recovery (Unplanned)
+E P     2       2       Operating System: Recovery (Planned)
+  P     2       3       Operating System: Upgrade (Planned) 
+E       2       4       Operating System: Reconfiguration (Unplanned)
+E P     2       4       Operating System: Reconfiguration (Planned)
+  P     2       16      Operating System: Service pack (Planned)
+        2       17      Operating System: Hot fix (Unplanned)
+  P     2       17      Operating System: Hot fix (Planned)
+        2       18      Operating System: Security fix (Unplanned)
+  P     2       18      Operating System: Security fix (Planned)
+E       4       1       Application: Maintenance (Unplanned)
+E P     4       1       Application: Maintenance (Planned)  
+E P     4       2       Application: Installation (Planned) 
+E       4       5       Application: Unresponsive
+E       4       6       Application: Unstable
+ U      5       15      System Failure: Stop error
+ U      5       19      Security issue (Unplanned)
+E       5       19      Security issue (Unplanned)
+E P     5       19      Security issue (Planned)
+E       5       20      Loss of network connectivity (Unplanned)
+ U      6       11      Power Failure: Cord Unplugged       
+ U      6       12      Power Failure: Environment
+  P     7       0       Legacy API shutdown
