@@ -1,0 +1,46 @@
+
+Sistem operasi yang digunakan :
+- cat /etc/os-release
+NAME="elementary OS"
+VERSION="5.1.7 Hera"
+ID=elementary
+ID_LIKE=ubuntu
+PRETTY_NAME="elementary OS 5.1.7 Hera"
+LOGO=distributor-logo
+VERSION_ID="5.1.7"
+HOME_URL="https://elementary.io/"
+SUPPORT_URL="https://elementary.io/support"
+BUG_REPORT_URL="https://github.com/elementary/os/issues/new"
+PRIVACY_POLICY_URL="https://elementary.io/privacy-policy"
+VERSION_CODENAME=hera
+UBUNTU_CODENAME=bionic
+
+install python
+- sudo apt update
+- sudo apt install python3
+
+cek python
+- python3 --version
+
+install pip,
+pip digunakan sebagai manajemen paket di python
+- sudo apt install python3-pip
+
+cara menggunakan pip
+- pip install <nama paket>
+    contoh : pip install flask
+- pip list
+    mengetahui paket serta versi yang terinstall di OS
+- pip uninstall <nama paket>
+    contoh : pip uninstall virtualenv
+
+beberapa contoh paket yang diinstall
+- pip install jupyterlab
+- pip install virtualenv
+    untuk mengisolasi python environment
+- pip install django
+    install framework django
+
+install code editor
+- sudo snap install code --classic
+- instal ms-python.python ekstensi, untuk membantu dalam coding bahasa python
