@@ -15,7 +15,7 @@ class Lahan(Petani):
         super().__init__(name, lahan)
            
     def membajak(self):
-        return Petani.getName(self) + " sedang membajak " + Petani.getLahan(self)
+        return f'Pak {Petani.getName(self)}  sedang membajak  {Petani.getLahan(self)}'
 
 l = Lahan("Praxis", "sawah")
 
