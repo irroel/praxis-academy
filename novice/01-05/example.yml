@@ -1,0 +1,17 @@
+---
+# Employee records
+-  lukman:
+    name: Ahmad Lukman Hakim
+    job: SysOps
+    skills:
+      - ansible
+      - docker
+      - jenkins
+-  irwan:
+    name: Ahmad Irwansyah
+    job: Developer
+    skills:
+      - lisp
+      - fortran
+      - erlang
+...

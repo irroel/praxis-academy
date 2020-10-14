@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <element>
+      <lukman>
+         <job>SysOps</job>
+         <name>Ahmad Lukman Hakim</name>
+         <skills>
+            <element>ansible</element>
+            <element>docker</element>
+            <element>jenkins</element>
+         </skills>
+      </lukman>
+   </element>
+   <element>
+      <irwan>
+         <job>Developer</job>
+         <name>Ahmad Irwansyah</name>
+         <skills>
+            <element>lisp</element>
+            <element>fortran</element>
+            <element>erlang</element>
+         </skills>
+      </irwan>
+   </element>
+</root>
