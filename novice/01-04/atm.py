@@ -53,7 +53,7 @@ class ATMmachine():
             print('What would you like to do?')
             inp = int(input())
             if inp == 4:
-                flag = False
+                # flag = False
                 break
             elif inp == 1:
                 print('Enter the ammount of money to deposit:')
@@ -76,8 +76,9 @@ class ATMmachine():
                 print()
                 print()
             else:
-                flag = False
-                break
+                print('Masukkan salah')
+                # flag = False
+                # break
     if __name__ == "__main__":
         print('===================================================================')
         print(f'                  Welcome to this simple ATM Machine              ')
