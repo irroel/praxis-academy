@@ -19,24 +19,8 @@ class Withdraw():
     def getWithdraw(self, w):
         return self.withdraw
 
-class ATMmachine:
-    
-    
+class ATMmachine(): 
     def main():
-        """
-            ===================================================================
-                            Welcome to this simple ATM Machine
-            ===================================================================
-            
-                    Please select ATM Transactions
-                    Press [1] Deposit
-                    Press [2] Withdraw
-                    Press [3] Balance Inquiry
-                    Press [4] Exit
-
-                    What would you like to do?
-
-        """
         def withDrawMoney():
             if bal.balance == 0.0:
                 print('Your current balance is zero.')
@@ -51,7 +35,7 @@ class ATMmachine:
                 print('Please check the amount you entered')
             else:
                 bal.balance = bal.balance - wit.withdraw
-                print(f'You withdraw the amount of Php {wit.getWithdraw}')
+                print(f'You withdraw the amount of Php {wit.getWithdraw(3)}')
         def depositMoney():
             print(f'You deposited the amount of {depo.getDeposit()}')
 
@@ -76,7 +60,6 @@ class ATMmachine:
                 d = float(input())
                 depo.setDeposit(d)
                 bal.balance = bal.balance + depo.deposit
-                #print(f'Your money in ATM is : {bal.getBalance()}')
                 depositMoney()
                 print()
                 print()
@@ -85,9 +68,7 @@ class ATMmachine:
                 print('Enter ammount of money to withdraw: ')
                 w = float(input())
                 wit.setWithdraw(w)
-                bal.balance -= wit.withdraw
-                withDrawMoney()
-                #print(f'Your money in ATM is : {bal.getBalance()}')
+                withDrawMoney()                
                 print()
                 print()
             elif inp == 3:
@@ -98,4 +79,7 @@ class ATMmachine:
                 flag = False
                 break
     if __name__ == "__main__":
+        print('===================================================================')
+        print(f'                  Welcome to this simple ATM Machine              ')
+        print('===================================================================')
         main()
