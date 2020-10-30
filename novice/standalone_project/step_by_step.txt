@@ -1,0 +1,21 @@
+create project
+
+create database postgresql
+
+    sudo -u postgres psql
+    
+    postgres=# CREATE DATABASE daily_notes_db;
+    
+    postgres=# CREATE USER django_user WITH PASSWORD 'open';
+    
+    ALTER ROLE django_user SET client_encoding TO 'utf8';
+    
+    ALTER ROLE django_user SET default_transaction_isolation TO 'read committed';
+    
+    ALTER ROLE django_user SET timezone TO 'Asia/Jakarta';
+    
+    GRANT ALL PRIVILEGES ON DATABASE daily_notes_db TO django_user;
+    
+setting database on setting.py project
+    
+
